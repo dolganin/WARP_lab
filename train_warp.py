@@ -6,7 +6,6 @@ import os
 
 
 def main():
-    os.environ["TOKENIZERS_PARALLELISM"] = "false"
     
     config = ConfigParser().config
     train_dataset, _ = IMDBDataset(config=config).get_data()
