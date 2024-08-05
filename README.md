@@ -18,6 +18,7 @@ python3 reward_model.py
 # После этого в папке weights будут чекпоинты, название последнего из них нужно перенести в configs/base.yaml ["warp_model_parameters"]["reward_model"]
 python3 train_warp.py
 python3 main_metrics.py
+python3 experiment_hyps.py
 ```
 Запускалось и обучалось на RTX 4070.
 Результаты получены, должны были вывестись в консоль с соответсвующими подписями.
